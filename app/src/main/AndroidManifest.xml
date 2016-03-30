@@ -28,6 +28,9 @@
             android:name=".android.LoginActivity"
             android:label="@string/title_activity_login" />
         <activity
+            android:name=".android.view.tabcarousel.demo.MainActivity"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".android.HomeActivity"
             android:label="@string/title_activity_home"
             android:theme="@style/AppTheme.NoActionBar"></activity>

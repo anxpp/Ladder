@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.anxpp.ladder.android.view.tabcarousel.ObservableScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b645ae">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="1250dp"
+        android:scaleType="fitXY"
+        android:src="@mipmap/ladder"/>
+
+</com.anxpp.ladder.android.view.tabcarousel.ObservableScrollView>

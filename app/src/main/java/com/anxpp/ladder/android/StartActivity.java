@@ -35,14 +35,13 @@ public class StartActivity extends AppCompatActivity {
         decorView.setSystemUiVisibility(uiOptions);
 
         //自动关闭
-
         new Timer().schedule(new TimerTask() {
             public void run() {
                 Message msg = new Message();
                 msg.what = 1;
                 handler.sendMessage(msg);
             }
-        },2500);
+        },100);
     }
     private Handler handler = new Handler(){
         public void handleMessage(Message msg) {

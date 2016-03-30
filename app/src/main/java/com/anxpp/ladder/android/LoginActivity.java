@@ -8,11 +8,7 @@ import android.view.WindowManager;
 
 import com.anxpp.ladder.R;
 
-/**
- * A login screen that offers login via email/password.
- */
 public class LoginActivity extends AppCompatActivity {
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,20 +28,5 @@ public class LoginActivity extends AppCompatActivity {
             actionBar.hide();
         }
     }
-
-//    private int getStatusBarHeight() {
-//        int result = 0;
-//        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
-//        if (resourceId > 0) {
-//            result = getResources().getDimensionPixelSize(resourceId);
-//        }
-//        return result;
-//    }
-//
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//        findViewById(R.id.login_root).setPadding(0,getStatusBarHeight(),0,0);
-//    }
 }
 
