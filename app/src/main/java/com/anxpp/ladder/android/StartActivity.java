@@ -48,7 +48,7 @@ public class StartActivity extends AppCompatActivity {
         public void handleMessage(Message msg) {
             super.handleMessage(msg);
             if(msg.what == 1){
-                startActivity(new Intent(StartActivity.this,LoginActivity.class));
+                startActivity(new Intent(StartActivity.this,HomeActivity.class));
                 finish();
             }
         }
